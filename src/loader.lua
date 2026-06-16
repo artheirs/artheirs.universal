@@ -32,14 +32,14 @@ local GAMES = {
         pc     = "https://raw.githubusercontent.com/artheirs/artheirs.vd/refs/heads/main/src/ArtheirsVD.lua",
         mobile = "https://raw.githubusercontent.com/artheirs/artheirs.vd/refs/heads/main/src/mobile.lua",
     },
-    -- [<ARSENAL_UNIVERSE_ID>] = {
-    --     name      = "Arsenal",
-    --     universal = "https://raw.githubusercontent.com/artheirs/artheirs.arsenal/refs/heads/main/src/Arsenal.lua",
-    -- },
-    -- [<DUELING_UNIVERSE_ID>] = {
-    --     name      = "Dueling Grounds",
-    --     universal = "https://raw.githubusercontent.com/artheirs/artheirs.dueling/refs/heads/main/src/DuelingGrounds.lua",
-    -- },
+    [111958650] = {  -- Arsenal
+        name      = "Arsenal",
+        universal = "https://raw.githubusercontent.com/artheirs/artheirs.arsenal/refs/heads/main/src/Arsenal.lua",
+    },
+    [9051406594] = {  -- Dueling Grounds
+        name      = "Dueling Grounds",
+        universal = "https://raw.githubusercontent.com/artheirs/artheirs.dg/refs/heads/main/src/DuelingGrounds.lua",
+    },
 }
 
 -- ===========================================================
