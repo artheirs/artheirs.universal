@@ -2,7 +2,7 @@
 --  ARTHEIRS UNIVERSAL LOADER — HWID Lock + Multi-Game Router
 -- ===========================================================
 --  Cara pakai (buyer paste di executor):
---    loadstring(game:HttpGet("https://raw.githubusercontent.com/artheirs/artheirs.universal/refs/heads/main/loader.lua"))()
+--    loadstring(game:HttpGet("https://raw.githubusercontent.com/artheirs/artheirs.universal/refs/heads/main/src/loader.lua"))()
 --
 --  Flow:
 --    1. Fetch whitelist (cache-bypass via request() no-cache)
