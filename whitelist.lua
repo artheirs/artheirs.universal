@@ -28,8 +28,6 @@
 -- ===========================================================
 
 return {
-    -- Owner entries — di-comment SEMENTARA untuk test fresh onboarding flow (2026-06-16).
-    -- Uncomment kalau test selesai supaya owner bisa inject lagi normal.
-    -- ["dc9c777230b7e9909ef61dedd3a77b72ce68343409bcfd943953d11431389919"] = { name = "Cio (owner) - PC" },
-    -- ["8ebc75457339951cddfcfc8ced4687ab287d3e580cf53ff23322c72f878dfa21"] = { name = "Cio (owner) - Mobile (Delta post-update 2026-06-16)" },
+    ["dc9c777230b7e9909ef61dedd3a77b72ce68343409bcfd943953d11431389919"] = { name = "Cio (owner) - PC" },
+    ["8ebc75457339951cddfcfc8ced4687ab287d3e580cf53ff23322c72f878dfa21"] = { name = "Cio (owner) - Mobile (Delta post-update 2026-06-16)" },
 }
