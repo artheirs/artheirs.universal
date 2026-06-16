@@ -7,16 +7,21 @@
 --  Format per entry: ["HWID"] = { name = "Nama (YYYY-MM-DD)" }
 --
 --  Workflow onboarding buyer baru:
---    1. Buyer beli → kasih probe 1-liner di #how-to-buy:
---         loadstring(game:HttpGet("https://raw.githubusercontent.com/artheirs/artheirs.universal/refs/heads/main/probe_hwid.lua?v="))()
---       Output → HWID auto-copy ke clipboard. Buyer paste ke admin di Discord.
---    2. Admin add baris: ["<HWID>"] = { name = "Buyer X (YYYY-MM-DD)" }, commit + push.
---    3. Buyer inject loader utama → GRANTED. Bisa pake akun Roblox manapun (HWID yg di-lock).
---    4. Buyer pindah ke game lain di bundle (VD → Arsenal → DG) → auto-GRANTED via token snapshot.
+--    1. Buyer beli → paste loader universal di executor.
+--    2. Loader DENIED (HWID belum di whitelist) → fire embed [WL-DEBUG]
+--       ke #universal-loader-log dengan HWID buyer lengkap (+ embed [DENIED]).
+--    3. Admin copy HWID dari embed [WL-DEBUG] → add entry:
+--         ["<HWID>"] = { name = "Buyer X (YYYY-MM-DD)" },
+--       commit + push.
+--    4. Buyer paste loader lagi → [FIRST_BIND] → token snapshot saved →
+--       main script load. Bisa pake akun Roblox manapun (HWID yg di-lock).
+--    5. Buyer pindah ke game lain di bundle (VD → Arsenal → DG) →
+--       auto-GRANTED via token snapshot.
 --
 --  Reset HWID (buyer ganti device / reinstall executor):
---    Buyer open ticket Discord → admin verify pembelian → admin delete entry HWID lama,
---    minta HWID baru via probe, add entry baru, push. Max reset wajar 2x/bulan.
+--    Buyer open ticket Discord → admin verify pembelian → admin delete entry
+--    HWID lama, minta buyer paste loader lagi (HWID baru muncul di [WL-DEBUG]),
+--    add entry baru, push. Max reset wajar 2x/bulan.
 --
 --  Revoke buyer (refund / abuse / banned account):
 --    Admin delete entry → push. Buyer langsung Access Denied next inject.
