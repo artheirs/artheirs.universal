@@ -40,6 +40,10 @@ local GAMES = {
         name      = "Dueling Grounds",
         universal = "https://raw.githubusercontent.com/artheirs/artheirs.dg/refs/heads/main/src/DuelingGrounds.lua",
     },
+    [10200395747] = {  -- Grow a Garden 2
+        name      = "Grow a Garden 2",
+        universal = "https://raw.githubusercontent.com/artheirs/artheirs.gag/refs/heads/main/src/Gg.lua",
+    },
 }
 
 -- ===========================================================
