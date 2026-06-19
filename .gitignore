@@ -1,0 +1,3 @@
+# Local-only files (not pushed to GitHub)
+*.backup-*
+whitelist.lua
