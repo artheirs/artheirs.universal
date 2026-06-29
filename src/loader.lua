@@ -1,7 +1,7 @@
 local GAMES = {
     [6739698191] = {
         name      = "Violence District",
-        pc        = "https://api.luarmor.net/files/v4/loaders/0061318be4cced3dc9f6e8a69fd87f3d.lua",
+        pc        = "https://api.luarmor.net/files/v4/loaders/00613186e4cced3dc9f6e8a69fd87f3d.lua",
         mobile    = "https://api.luarmor.net/files/v4/loaders/dca1106d0ce20b26d23e7747bb3fe124.lua",
     },
     [111958650] = {
