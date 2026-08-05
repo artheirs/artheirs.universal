@@ -6,7 +6,7 @@ local GAMES = {
     },
     [111958650] = {
         name      = "Arsenal",
-        universal = "https://api.luarmor.net/files/v4/loaders/55a3f65db13ca2ce8218d2ff9d07fb09.lua",
+        universal = "https://api.luarmor.net/files/v4/loaders/6f46278bc8ad21d8f1333c7e217307be.lua",
     },
     [9051406594] = {
         name      = "Dueling Grounds",
@@ -15,6 +15,10 @@ local GAMES = {
     [10200395747] = {
         name      = "Grow a Garden 2",
         universal = "https://api.luarmor.net/files/v4/loaders/99286ae1187e6ca234c6f7d16f937e4d.lua",
+    },
+    [10187294555] = {
+        name      = "Mine a Mountain",
+        universal = "https://api.luarmor.net/files/v4/loaders/7ea03107f69378386e8ba2f3f2e1cf42.lua",
     },
 }
 
