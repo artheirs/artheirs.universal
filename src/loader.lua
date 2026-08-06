@@ -20,6 +20,10 @@ local GAMES = {
         name      = "Mine a Mountain",
         universal = "https://api.luarmor.net/files/v4/loaders/7ea03107f69378386e8ba2f3f2e1cf42.lua",
     },
+    [10131390815] = {
+        name      = "Throw a Coin",
+        universal = "https://api.luarmor.net/files/v4/loaders/19afdd44cfd56ced6ec6e9ca75cd0bb6.lua",
+    },
 }
 
 local UIS       = game:GetService("UserInputService")
