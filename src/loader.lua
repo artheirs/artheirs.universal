@@ -6,7 +6,7 @@ local GAMES = {
     },
     [111958650] = {
         name      = "Arsenal",
-        universal = "https://api.luarmor.net/files/v4/loaders/6f46278bc8ad21d8f1333c7e217307be.lua",
+        universal = "https://api.luarmor.net/files/v4/loaders/562218396e1aaf7329744aeefe2f0cbb.lua",
     },
     [9051406594] = {
         name      = "Dueling Grounds",
