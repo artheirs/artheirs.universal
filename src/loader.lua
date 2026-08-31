@@ -10,7 +10,7 @@ local GAMES = {
     },
     [9051406594] = {
         name      = "Dueling Grounds",
-        universal = "https://api.luarmor.net/files/v4/loaders/1e7409c7633df46a08d25a80745ab295.lua",
+        universal = "https://api.luarmor.net/files/v4/loaders/ebdfe08c86f5692fe4cfbce17b41fee5.lua",
     },
     [10200395747] = {
         name      = "Grow a Garden 2",
