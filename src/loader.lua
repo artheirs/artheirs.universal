@@ -28,6 +28,10 @@ local GAMES = {
         name      = "Steal an Egg",
         universal = "https://api.luarmor.net/files/v4/loaders/18832dd2aa61a363b139f4b8fad5402e.lua",
     },
+    [9931749389] = {
+        name      = "Dungeon Quest Reborn",
+        universal = "https://api.luarmor.net/files/v4/loaders/7494481a850702f77c4438cade96f377.lua",
+    },
 }
 
 local UIS       = game:GetService("UserInputService")
