@@ -32,6 +32,10 @@ local GAMES = {
         name      = "Dungeon Quest Reborn",
         universal = "https://api.luarmor.net/files/v4/loaders/7494481a850702f77c4438cade96f377.lua",
     },
+    [9656201728] = {
+        name      = "Dungeon Lootr",
+        universal = "https://api.luarmor.net/files/v4/loaders/abdc9970713d55ec730cf1ef7888235a.lua",
+    },
 }
 
 local UIS       = game:GetService("UserInputService")
