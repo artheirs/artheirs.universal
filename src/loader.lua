@@ -36,6 +36,10 @@ local GAMES = {
         name      = "Dungeon Lootr",
         universal = "https://api.luarmor.net/files/v4/loaders/abdc9970713d55ec730cf1ef7888235a.lua",
     },
+    [10035204815] = {
+        name      = "Ride a Pet",
+        universal = "https://api.luarmor.net/files/v4/loaders/070dbcde33b3bbbea8c5ad43bdec468d.lua",
+    },
 }
 
 local UIS       = game:GetService("UserInputService")
